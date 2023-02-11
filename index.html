@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoL</title>
+
+  <!--Icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="styles_test.css">
+
+  <!--JS-->
+  <link rel="stylesheet" href="maint.js">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  
+
+
+  
+</head>
+<body>
+  <!--Hlavička-->
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav">
+          <a href="index.html" class="logo"><img src="img/logo.svg" alt="Logo"></a>
+
+          <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list_menu">
+              <li class="nav_item_menu"><a href="#about" class="nav_link_menu">About Me</a></li>
+              <li class="nav_item_menu"><a href="#hobbies" class="nav_link_menu">Hobbies</a></li>
+              <li class="nav_item_menu"><a href="#skills" class="nav_link_menu">Skills</a></li>
+              <li class="nav_item_menu"><a href="#qualification" class="nav_link_menu">Qualification</a></li>
+              <li class="nav_item_menu"><a href="#projects" class="nav_link_menu">Projects</a></li>
+              <li class="nav_item_menu"><a href="#contact" class="nav_link_menu">Contact</a></li>
+            </ul>
+          </div>
+          <div class="nav_socials">
+            <ul class="nav_list_socials">
+                <li class="nav_item_socials"><a href="#" class="nav_link_socials"><i class="bi bi-discord"></i></a></li>
+                <li class="nav_item_socials"><a href="#" class="nav_link_socials"><i class="bi bi-github"></i></a></li>
+                <li class="nav_item_socials"><a href="#" class="nav_link_socials"><i class="bi bi-twitter"></i></a></li>
+                <li class="nav_item_socials"><a href="#" class="nav_link_socials"><i class="bi bi-instagram"></i></a></li>
+              </ul>
+          </div>
+          <div class="nav_toggle">
+            <i id="nav-toggle" class="ri-menu-2-line"></i>
+          </div>
+      </nav>
+    </div>
+  </header>
+
+<!--Obsah-->
+  <main class="main">
+    <!--Hero sekce-->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero_content">
+            <div class="hero_text">
+              <h4>Hey there, I am</h4>
+              <h2 class="hero_name">Nguyen Thanh Long</h2>
+              <h5>“Portfolios are everything, promises are nothing. Do the work.”</h5>
+            </div>
+          <div class="arrow">
+            <a data-scroll href="#about">
+              <div class="arrow_down"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About Me-->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section_header">
+          <h4 class="section_title">About Me</h4>
+          <span class="section_subtitle">Who am I</span>
+        </div>
+
+        <div class="d-flex about_wrapper">
+          <div class="about_content">
+              <h4 class="about_title">I'm a Professional and Experienced Web Developer.</h4>
+              <p class="about_description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda voluptates ad numquam,officiis accusamus similique
+                  voluptate! Sint corrupti soluta, expedita dolores. Similique
+                  odit officia quisquam itaque, distinctio quas odio dolor porro
+                  corporis facilis.</p>
+              
+          </div>
+
+          <div class="about_wrapper_cards swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/project1.jpg" alt="about1" class="about_img"></div>
+              <div class="swiper-slide"><img src="img/project2.jpg" alt="about1" class="about_img"></div>
+              <div class="swiper-slide"><img src="img/project3.jpg" alt="about1" class="about_img"></div>
+              <div class="swiper-slide"><img src="img/project1.jpg" alt="about1" class="about_img"></div>
+              <div class="swiper-slide"><img src="img/project3.jpg" alt="about1" class="about_img"></div>
+              <div class="swiper-slide"><img src="img/project2.jpg" alt="about1" class="about_img"></div>
+              <div class="swiper-slide"><img src="img/project1.jpg" alt="about1" class="about_img"></div>
+              <div class="swiper-slide"><img src="img/project2.jpg" alt="about1" class="about_img"></div>
+              <div class="swiper-slide"><img src="img/project3.jpg" alt="about1" class="about_img"></div>
+
+            </div>
+            <div class="swiper-pagination1"></div>
+          </div>
+
+          
+      </div>
+
+    </section>
+    <!--Hobbies-->
+    <section id="hobbies" class="section hobbies">
+      <div class="container">
+          <div class="section_header">
+              <h4 class="section_title">My Hobbies</h4>
+              <span class="section_subtitle">What do I like</span>
+          </div>
+          <div class="hobbies_wrapper swiper">
+
+              <div class="swiper-wrapper">
+                  <!--========= Hobby 1 ============ -->
+                  <div class="hobbies_card swiper-slide">
+                      <img src="img/testimonial1.jpg" alt="Natasha Smith" class="hobbies_img">
+                      <div class="hobbies_content">
+                          <p class="hobbies_description">Lorem ipsum dolor sit amet consectetur. Dignissim
+                              tincidunt egestas vitae porttitor nulla gravida commodo.</p>
+                          <h5 class="hobbies_name">Natasha Smith</h5>
+                          <span class="hobbies_occupation">UI/UX Designer at Dribbble</span>
+                      </div>
+                  </div>
+                  <!--========= Hobby 2 ============ -->
+                  <div class="hobbies_card swiper-slide">
+                      <img src="img/testimonial1.jpg" alt="Natasha Smith" class="hobbies_img">
+                      <div class="hobbies_content">
+                          <p class="hobbies_description">Lorem ipsum dolor sit amet consectetur. Dignissim tincidunt egestas vitae porttitor nulla gravida commodo.</p>
+                          <h5 class="hobbies_name">Natasha Smith</h5>
+                          <span class="hobbies_occupation">UI/UX Designer at Dribbble</span>
+                      </div>
+                  </div>
+                  <!--========= Hobby 3 ============ -->
+                  <div class="hobbies_card swiper-slide">
+                      <img src="img/testimonial1.jpg" alt="Natasha Smith" class="hobbies_img">
+                      <div class="hobbies_content">
+                          <p class="hobbies_description">Lorem ipsum dolor sit amet consectetur. Dignissim
+                              tincidunt egestas vitae porttitor nulla gravida commodo.</p>
+                          <h5 class="hobbies_name">Natasha Smith</h5>
+                          <span class="hobbies_occupation">UI/UX Designer at Dribbble</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="arrows">
+                <i class="bi bi-arrow-left-circle-fill" id="prev"></i>
+                <i class="bi bi-arrow-right-circle-fill" id="next"></i>
+              </div>
+
+              <div class="swiper-pagination"></div>
+          </div>
+      </div>
+  </section>
+    <!--=================== Skills ====================-->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section_header">
+          <h4 class="section_title">My Skills</h4>
+          <span class="section_subtitle">What can I do</span>
+        </div>
+
+        <div class="d-flex skills_wrapper">
+          <!--========= Skill card 1 =========-->
+          <div class="skills_card">
+              <div class="skills_icon">
+                  <i class="ri-layout-4-fill"></i>
+              </div>
+              <h5 class="skills_title">Frontend<br>Development</h5>
+              <a href="#" class="skills_link">Know More</a>
+          </div>
+          <!--========= Skill card 2 =========-->
+          <div class="skills_card">
+              <div class="skills_icon">
+                  <i class="ri-code-s-slash-line"></i>
+              </div>
+              <h5 class="skills_title">Backend<br> Development</h5>
+              <a href="#" class="skills_link">Know More</a>
+          </div>
+          <!--========= Skill card 3 =========-->
+          <div class="skills_card">
+              <div class="skills_icon">
+                  <i class="ri-pen-nib-fill"></i>
+              </div>
+              <h5 class="skills_title">UI/UX<br> Design</h5>
+              <a href="#" class="skills_link">Know More</a>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <!--=================== Qualification ====================-->
+    <section id="qualification" class="section qualification">
+        <div class="container">
+            <div class="section_header">
+                <h4 class="section_title">Qualification</h4>
+                <span class="section_subtitle">Experience & Education</span>
+            </div>
+            <!--============== Professional Experience ============-->
+            <div class="qualification_wrapper">
+                <h5 class="qualification_name">
+                    <i class="bi bi-briefcase-fill"></i>
+                    Professional Experience
+                </h5>
+                <div class="d-flex qualification_content">
+                    <!-- Experience 1-->
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">Web Developer at Youtube</h3>
+                        <p class="qualification_description">Lorem ipsum dolor sit amet consectetur.
+                            Facilisi vitae bibendum praesent sodales
+                            urna vel molestie neque augue.</p>
+                        <span class="qualification_date">2021 - Present</span>
+                    </div>
+                    <!-- Experience 2-->
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">Frontend Lead at Facebook</h3>
+                        <p class="qualification_description">Lorem ipsum dolor sit amet consectetur.
+                            Facilisi vitae bibendum praesent sodales
+                            urna vel molestie neque augue.</p>
+                        <span class="qualification_date">2019 - 2021</span>
+                    </div>
+                    <!-- Experience 3-->
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">UI/UX Designer at Pinterest</h3>
+                        <p class="qualification_description">Lorem ipsum dolor sit amet consectetur.
+                            Facilisi vitae bibendum praesent sodales
+                            urna vel molestie neque augue.</p>
+                        <span class="qualification_date">2017 - 2019</span>
+                    </div>
+                </div>
+            </div>
+            <!--============== Education ============-->
+            <div class="qualification_wrapper">
+                <h5 class="qualification_name">
+                    <i class="bi bi-building-fill-add"></i>
+                    Education
+                </h5>
+                <div class="d-flex qualification_content">
+                    <!-- Education 1-->
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">UI/UX Designer</h3>
+                        <p class="qualification_description">Lorem ipsum dolor sit amet consectetur.
+                            Facilisi vitae bibendum praesent sodales
+                            urna vel molestie neque augue.</p>
+                        <span class="qualification_date">2017 - 2018</span>
+                    </div>
+                    <!-- Education 2-->
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">Master In Web Development</h3>
+                        <p class="qualification_description">Lorem ipsum dolor sit amet consectetur.
+                            Facilisi vitae bibendum praesent sodales
+                            urna vel molestie neque augue.</p>
+                        <span class="qualification_date">2014 - 2016</span>
+                    </div>
+                    <!-- Education 3-->
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">Software Engineer</h3>
+                        <p class="qualification_description">Lorem ipsum dolor sit amet consectetur.
+                            Facilisi vitae bibendum praesent sodales
+                            urna vel molestie neque augue.</p>
+                        <span class="qualification_date">2010 - 2014</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--=================== Projects ====================-->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section_header">
+          <h4 class="section_title">My Projects</h4>
+          <span class="section_subtitle">What have I done</span>
+        </div>
+
+        <div class="projects_wrapper">
+          <div class="projects_nav">
+            <span class="projects_filter">Filter by:</span>
+            <span class="projects_nav_item" data-filter="all">All</span>
+            <span class="projects_nav_item" data-filter=".web">Web</span>
+            <span class="projects_nav_item" data-filter=".game">Games</span>
+            <span class="projects_nav_item" data-filter=".s_project">Small Projects</span>
+          </div>
+
+          <div class="projects_container">
+
+            <div class="projects_card mix web">
+              <a href="#"><img src="img/project1.jpg" alt="p1" class="projects_card_img"></a>
+              <div class="projects_card_text mix web">
+                <span class="projects_card_category">Web development</span>
+                <a href="#"><h5 class="projects_card_title">Portfolio Web Page</h5></a>
+                <a href="#" class="projects_card_button">View Details</a>
+              </div>
+            </div>
+
+            <div class="projects_card mix web">
+              <a href="#"><img src="img/project2.jpg" alt="p1" class="projects_card_img"></a>
+              <div class="projects_card_text">
+                <span class="projects_card_category">Web development</span>
+                <a href="#"><h5 class="projects_card_title">Portfolio Web Page</h5></a>
+                <a href="#" class="projects_card_button">View Details</a>
+              </div>
+            </div>
+
+            <div class="projects_card mix game">
+              <a href="#"><img src="img/project3.jpg" alt="p1" class="projects_card_img"></a>
+              <div class="projects_card_text">
+                <span class="projects_card_category">Game development</span>
+                <a href="#"><h5 class="projects_card_title">Portfolio Web Page</h5></a>
+                <a href="#" class="projects_card_button">View Details</a>
+              </div>
+            </div>
+
+            <div class="projects_card mix s_project">
+              <a href="#"><img src="img/project2.jpg" alt="p1" class="projects_card_img"></a>
+              <div class="projects_card_text">
+                <span class="projects_card_category">Small project</span>
+                <a href="#"><h5 class="projects_card_title">Portfolio Web Page</h5></a>
+                <a href="#" class="projects_card_button">View Details</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=================== Contact ====================-->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section_header">
+          <h4 class="section_title">My Contact</h4>
+          <span class="section_subtitle">How can you contact me</span>
+        </div>
+        <div class="contact_wrapper d-flex">
+          
+          <form action="https://formsubmit.co/hecise1719@aosod.com" method="post">
+            <input type="text" name="Name" placeholder="Name" required class="contact_input">
+            <input type="email" name="Email" placeholder="Email adress" required class="contact_input">
+            <input type="text" name="Subject" placeholder="Subject" required class="contact_input">
+            <textarea name="Message" placeholder="Project details" rows="5" required class=" contact_input contact_textarea"></textarea>
+            <input type="submit" name="submit" value="Send Message">
+          </form>
+          
+        </div>
+      </div>
+    </section>
+    <!--=================== Footer ====================-->
+    <footer class="footer section" id="footer">
+      <div class="container">
+        <div class="d-flex footer_wrapper">
+
+          <div class="footer_logo">
+            <img src="img/logo.svg" alt="logo">
+          </div>
+
+          <div class="footer_contact">
+            <div class="footer_item">
+              <h5 class="footer_header">Social Media</h5>
+              <div class="footer_text">
+                <i class="bi bi-arrow-right" class="arrow_icon"></i>
+                <div class="footer_socials">
+                  <a href="#"><i class="bi bi-discord"></i></a>
+                  <a href="#"><i class="bi bi-github"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="footer_item">
+              <h5 class="footer_header">Email Adress
+                <i class="bi bi-envelope-at-fill"></i>
+              </h5>
+              <div class="footer_text">
+                <i class="bi bi-arrow-right"></i>
+                <h5><a href="mailto:longnguyenthanh10@gmail.com">longnguyenthanh10@gmail.com</a></h5>
+                <h5></h5>
+              </div>
+            </div>
+            <div class="footer_item">
+              <h5 class="footer_header">Phone Number
+                <i class="bi bi-telephone-fill"></i>
+              </h5>
+              <div class="footer_text">
+                <i class="bi bi-arrow-right" class="arrow_icon"></i>
+                <h5><a href="tel:+420776077503">+420 776 077 503</a></h5>
+              </div>
+            </div>
+
+            <div class="footer_item">
+              <h5 class="footer_header">Location
+                <i class="bi bi-geo-alt-fill"></i>
+              </h5>
+              <div class="footer_text">
+                <i class="bi bi-arrow-right" class="arrow_icon"></i>
+                <h5><a href="https://www.google.com/maps/place/České+Budějovice" target="_blank">České Budějovice, Česká republika</a></h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="footer_wrapper2">
+          <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list_menu">
+              <li class="nav_item_menu"><a href="#about" class="nav_link_menu">About Me</a></li>
+              <li class="nav_item_menu"><a href="#hobbies" class="nav_link_menu">Hobbies</a></li>
+              <li class="nav_item_menu"><a href="#skills" class="nav_link_menu">Skills</a></li>
+              <li class="nav_item_menu"><a href="#qualification" class="nav_link_menu">Qualification</a></li>
+              <li class="nav_item_menu"><a href="#projects" class="nav_link_menu">Projects</a></li>
+              <li class="nav_item_menu"><a href="#contact" class="nav_link_menu">Contact</a></li>
+            </ul>
+          </div>
+          <p class="footer_copyright">Copyright © 2023 • Long Inc.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <button id="scroll-to-top"><i class="bi bi-caret-up-square-fill"></i></button>
+
+    <!--=================== Main JS ====================-->
+    <script src="mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="maint.js"></script>
+</body>
+</html>
+
